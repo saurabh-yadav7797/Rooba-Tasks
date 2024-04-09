@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -14,7 +14,7 @@ input, button {
     margin: 5px;
 }
 
-#result {
-    margin-top: 10px;
+.result {
     font-weight: bold;
+    margin: 10px 0;
 }
