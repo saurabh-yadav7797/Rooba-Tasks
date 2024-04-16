@@ -6,9 +6,41 @@
     <p>ECMAScript 5 allows reserved words as property names.</p>
     <p id="demo"></p>
 
+    <!--trim method-->
+
+    <h1>JavaScript Strings</h1>
+    <h2>The trim() Method</h2>
+    <p id="trim"></p>
+
+    <!--javaScrit Arrays-->
+
+    <h1>JavaScript Arrays</h1>
+    <h2>The isArray() Method</h2>
+
+    <p>Click the button to check if "fruits" is an array.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="array"></p>
+
     <script>
       var obj = { name: "vivek", new: "yes" };
       document.getElementById("demo").innerHTML = obj.new;
+
+      //trim method....
+      let text1 = "     Hello World!     ";
+      let text2 = text1.trim();
+
+      document.getElementById("trim").innerHTML =
+        "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+
+      //JavaScript Arrays.........
+
+      function myFunction() {
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        var x = document.getElementById("array");
+        x.innerHTML = Array.isArray(fruits);
+      }
     </script>
   </body>
 </html>
