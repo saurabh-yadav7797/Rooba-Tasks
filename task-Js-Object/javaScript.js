@@ -9,9 +9,10 @@ class Employee {
 class Office {
     constructor() {
         this.officeName = "RoobaFinance";
-        this.managers = [new Employee("Manager1"), new Employee("Manager2")];
-        this.teamLeaders = [new Employee("TeamLeader1"), new Employee("TeamLeader2")];
-        this.developers = [new Employee("Developer1"), new Employee("Developer2"), new Employee("Developer3")];
+        this.manager = [new Employee("Sidharth")];
+        this.teamLeader = [new Employee("Krishna")];
+        this.developer = [new Employee("Aadi")];
+        this.interns=[new Employee("Prashant"), new Employee("Saurabh"),, new Employee("Ruhi"), new Employee("nilay")]
     }
 
     // Method to display office information
@@ -19,9 +20,10 @@ class Office {
         const infoElement = document.getElementById('officeInfo');
         infoElement.innerHTML = `
             <p><strong>Office Name:</strong> ${this.officeName}</p>
-            <p><strong>Managers:</strong> ${this.getEmployeeNames(this.managers)}</p>
-            <p><strong>Team Leaders:</strong> ${this.getEmployeeNames(this.teamLeaders)}</p>
-            <p><strong>Developers:</strong> ${this.getEmployeeNames(this.developers)}</p>
+            <p><strong>Managers:</strong> ${this.getEmployeeNames(this.manager)}</p>
+            <p><strong>Team Leaders:</strong> ${this.getEmployeeNames(this.teamLeader)}</p>
+            <p><strong>Developers:</strong> ${this.getEmployeeNames(this.developer)}</p>
+            <p><strong>Developers:</strong> ${this.getEmployeeNames(this.interns)}</p>
         `;
     }
 
