@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#colorText {
+    color: black; /* Default color */
+}
+
+#colorButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#colorButton:hover {
+    background-color: #007acc; /* Darker blue on hover */
+}
