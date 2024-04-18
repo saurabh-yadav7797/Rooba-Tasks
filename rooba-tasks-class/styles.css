@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book, .magazine {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.author {
+    font-style: italic;
+}
+
+.pages {
+    margin-top: 5px;
+}
+
+.issue {
+    margin-top: 5px;
+}
