@@ -1,7 +1,13 @@
 import React from 'react'
-function Dashboard(){
+import DashboardStats from './DashboardStats'
+import DonutChart from './DonutChart'
+
+export default function Dashboard(){
     return(
-        <div>this is dashboard</div>
+        <div className='flex flex-col gap-4'>
+            <DashboardStats />
+            <DonutChart />
+        </div>
     )
 }
-export default Dashboard
+ 
