@@ -1,18 +1,27 @@
 import React from 'react';
 export default function DashboardStats() {
     return(
-        <div className='flex flex-col '>
-        <div className='flex flex-row'>
-            <div className='bg-blue-500'>Dashboard</div>
-            <div class="sdsc">FilterperiodS</div>
+        <div className=' '>
+        <div className='flex w-full float-left my-2 px-4 justify-between'>
+            <div>
+            <div className='w-2/4 my-2 px-2'>Dashboard</div>
+            <div className='w-full my-2 px-2 text-xs font-light'>Hi, Emirhan.Welcome back to Prevego Admin!</div>
+            </div>
+            <div className="flex items-center gap-2 my-2 px-4 float-right text-right bg-white">
+                <img className='h-5 w-5'src='./images/vector.jpg' alt=''/>
+                <div className='my-2 px-4'>
+                <div className='text-left '>Filter Periode</div>
+                <div className='text-xs font-light'>17 April 2020-21 May 2020</div>
+                </div>
+            </div>
 
         </div>
-        <div className='flex justify-items-stretch gap-4 w-full'>
+        <div className='flex justify-items-stretch gap-4 w-full my-2 px-4'>
             <BoxWrapper>
-                <div className='h-20 w-20 flex items-center justify-center '>
-            <img  className='w-auto text-2xl text-white' src='./images/p.jpg' alt=''/>
+                <div className='h-20 w-20 flex items-center justify-center my-2 px-4'>
+                 <img  className='w-auto text-2xl text-white' src='./images/p.jpg' alt=''/>
                 </div>
-                <div className='pl-4'> 
+                <div className='pl-4 my-2 px-4'> 
                     <strong className='text-xl text-gray-700 font-semibold'>75</strong>
                     
                     <div className='text-xs'>Total Campaign</div>
@@ -20,10 +29,10 @@ export default function DashboardStats() {
                 </div>
             </BoxWrapper>
             <BoxWrapper>
-            <div className='h-20 w-20 flex items-center justify-center '>
+            <div className='h-20 w-20 flex items-center justify-center my-2 px-4'>
                 <img  className='w-auto text-2xl text-white' src='./images/people.jpg' alt=''/>
                 </div>
-                <div className='pl-4'> 
+                <div className='pl-4 my-2 px-4'> 
                     <strong className='text-xl text-gray-700 font-semibold'>75</strong>
                     
                     <div className='text-xs'>Total Campaign</div>
@@ -31,10 +40,10 @@ export default function DashboardStats() {
                 </div>
             </BoxWrapper>
             <BoxWrapper>
-            <div className='h-20 w-20 flex items-center justify-center '>
+            <div className='h-20 w-20 flex items-center justify-center my-2 px-4'>
                 <img  className='w-auto text-2xl text-white' src='./images/hand.jpg' alt=''/>
                 </div>
-                <div className='pl-4'> 
+                <div className='pl-4 my-2 px-4'> 
                     <strong className='text-xl text-gray-700 font-semibold'>75</strong>
                     
                     <div className='text-xs'>Total Campaign</div>
@@ -42,10 +51,10 @@ export default function DashboardStats() {
                 </div>
             </BoxWrapper>
             <BoxWrapper>
-            <div className='h-20 w-20 flex items-center justify-center '>
+            <div className='h-20 w-20 flex items-center justify-center my-2 px-4'>
                 <img  className='w-auto text-2xl text-white' src='./images/doller.jpg' alt=''/>
                 </div>
-                <div className='pl-4'> 
+                <div className='pl-4 my-2 px-4'> 
                     <strong className='text-xl text-gray-700 font-semibold'>75</strong>
                     
                     <div className='text-xs'>Total Campaign</div>
