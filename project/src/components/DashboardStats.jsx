@@ -19,7 +19,7 @@ export default function DashboardStats() {
         <div className='flex justify-items-stretch gap-4 w-full my-2 px-4'>
             <BoxWrapper>
                 <div className='h-20 w-20 flex items-center justify-center my-2 px-4'>
-                 <img  className='w-auto text-2xl text-white' src='./images/p.jpg' alt=''/>
+                 <img  className='.object-fill h-90 w-100 text-2xl text-white' src='./images/p.jpg' alt=''/>
                 </div>
                 <div className='pl-4 my-2 px-4'> 
                     <strong className='text-xl text-gray-700 font-semibold'>75</strong>
@@ -33,9 +33,9 @@ export default function DashboardStats() {
                 <img  className='w-auto text-2xl text-white' src='./images/people.jpg' alt=''/>
                 </div>
                 <div className='pl-4 my-2 px-4'> 
-                    <strong className='text-xl text-gray-700 font-semibold'>75</strong>
+                    <strong className='text-xl text-gray-700 font-semibold'>357</strong>
                     
-                    <div className='text-xs'>Total Campaign</div>
+                    <div className='text-xs'>Total Participant </div>
                     <div className='text-xs font-light'>4%(30days)</div>
                 </div>
             </BoxWrapper>
@@ -44,10 +44,10 @@ export default function DashboardStats() {
                 <img  className='w-auto text-2xl text-white' src='./images/hand.jpg' alt=''/>
                 </div>
                 <div className='pl-4 my-2 px-4'> 
-                    <strong className='text-xl text-gray-700 font-semibold'>75</strong>
+                    <strong className='text-xl text-gray-700 font-semibold'>20</strong>
                     
-                    <div className='text-xs'>Total Campaign</div>
-                    <div className='text-xs font-light'>4%(30days)</div>
+                    <div className='text-xs'>Total Partners</div>
+                    <div className='text-xs font-light'>25%(30days)</div>
                 </div>
             </BoxWrapper>
             <BoxWrapper>
@@ -55,10 +55,10 @@ export default function DashboardStats() {
                 <img  className='w-auto text-2xl text-white' src='./images/doller.jpg' alt=''/>
                 </div>
                 <div className='pl-4 my-2 px-4'> 
-                    <strong className='text-xl text-gray-700 font-semibold'>75</strong>
+                    <strong className='text-xl text-gray-700 font-semibold'>$128</strong>
                     
-                    <div className='text-xs'>Total Campaign</div>
-                    <div className='text-xs font-light'>4%(30days)</div>
+                    <div className='text-xs'>Total Revenue</div>
+                    <div className='text-xs font-light'>12%(30days)</div>
                 </div>
             </BoxWrapper>
 
