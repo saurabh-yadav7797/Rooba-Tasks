@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary: #14171a;
+  --secondary: #FFCA5F;
+  --tertiary: #B9A0FF;
+  --white: #fff
+}
+
+* {
+  color: var(--white);
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: var(--primary);
+  
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.text-title {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;
+  color: var(--secondary);
+}
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scroll::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+.carousel:first-child{
+  margin-left: 240px;
+}
+.carousel:last-child{
+  margin-right: 240px;
+}
